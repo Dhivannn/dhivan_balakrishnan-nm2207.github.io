@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="appscripts.css">
+        <title>Singapore Changi Airport's Recovery Post-Covid-19</title>
+        <script defer type="text/javascript" src="main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+        
+    </head>
+
+    <body>
+
+        <header id="myHeader">
+            <center> <img id="Changilogo" src="resources/Singapore_Changi_Airport_logo.svg.png" width="10%"</center>
+            <div class="clickable-container">
+                <div class="clickable1" onclick="location.href='#1'">
+                  <center>Pre-Covid</center>
+                </div>
+                <div class="clickable2" onclick="location.href='#duringcovid'">
+                  <center>During Covid</center>
+                </div>
+                <div class="clickable3" onclick="location.href='#postcovid'">
+                  <center>Post COVID</center>
+                </div>
+            </div>
+          </header>
+
+        <div class="header">
+            <center>
+            <img id="Changi" src="resources/Changi airport.jpeg" width="100%" height="100%">
+            </center>
+        </div>
+    
+        <div class="container">
+          <header class="header">
+            <center>
+            <h1><p id="Typewriter"> Will Singapore Changi Airport be able to recover after COVID-19?</p></h1>
+          </header>
+            </center>
+        </div>
+        <br>
+        <br>
+        <center>
+            <img id="1" src="resources/Pre-covid.png" width="600">
+        </center>
+
+        <div class= "precovid">
+            <div class="pre-container">
+            <div class ="pre1">
+                <img src="resources/precovidchangi.webp" id=precovid width="600">
+            </div>
+            <div class ="pre2">
+
+                <br>
+                <p> Singapore Changi Airport is main airport in Singapore and is 
+                    acclaimed as one of the best airports in the world, known for its
+                    state of the art facilities. Beyond just the 
+                    beautiful amentities, the airport is the 9th busiest airport in the 
+                    world in 2023, according to the Airport Council International, reigning as a  major 
+                    transportation hub in the Asia-Pacific region.
+                <br>
+                <br>
+                    As seen from the graph below, it saw a steady increase in passenger numbers, reaching a record high 
+                    in 2019, managing over 68.3 million
+                    passengers. Changi Airport hosted over 80 international carriers and flew 
+                    to over a 100 countries worldwide. 
+
+                </p>
+            </div>
+            <div class = "pre3">
+                <canvas id="Chart1" width="100" height="25"></canvas>
+            </div>
+            </div>
+
+        </div>
+    <br>
+    <br>
+    <center>
+        <img src="resources/COVID.png" width="400">
+    </center>
+        
+        <div class = "duringcovid" id="duringcovid">
+            <p>
+                However, during COVID-19, Singapore Changi Airport along with the rest of the world came to 
+                a standstill. As COVID-19 cases continued to rise, countries fearing the spread of the virus 
+                started to close thier borders to international passengers. However, border restrictions deferred 
+                country to country. Some countries like China, saw an immediate full-closure of its borders, whereas in 
+                the United States and the United Kingdom, the border restrictions were less restrictive and simply required
+                travellers to take a PCR-test prior to their departure/arrival and quarantine when necessary. 
+            
+            </p>
+
+            <canvas id="Chart3" style="width: 5px;"></canvas>
+
+            <p>This graph represents the travel restrictions in Singapore's top travel
+                desitnations. This value is the average restriction score from 2020 to 2022, and for reference
+                Singapore's average was 2.052. Major markets that had more enforcive policies such as Australia and China thus saw less flights 
+                to and from Singapore. Such travel restrictions severly hindered travel from the start 
+                of the virus in 2020 till the end of 2022 when countries slowly started to move towards an endemic.
+            <br>
+            <br>
+                As a result, Changi Airport was hit severly due to the reduction in the number of passengers travelling 
+                to and through Singapore. Even Singapore's national carrier Singapore Airlines saw a drastic drop in profits
+                having to lay off many staff in the process. 
+            </p>
+
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <center>
+            <img src="resources/postcovid.png" width="600">
+        </center>
+
+
+        <div class ="postcovid" id="postcovid">
+           
+            <p> 
+                At the start of 2022, countries started to move towards an endemic and started re-opening their borders to 
+                international travellers. This saw the first wave of eager travelers grasping the opportunity to travel once
+                again. As of March 2023, Singapore Changi Airport has reached 80% of pre-COVID capacity, and it has continued 
+                to show its ability to bounce back despite the hurdles it faced during the pandemic.  
+            </p>
+            <canvas id="Chart2" style="width: 5px;"></canvas>
+            <p> 
+                Above is the list of the top 5 busiest international routes in the world as of 2023, in relation to the number of 
+                seats that are offered on each route. Singapore dominates this list, claiming 2 busiest routes : From Kuala Lumpur 
+                to Singapore and Jakarta to Singapore. This is testament to its image as a international hub, as it continues to 
+                welcome pre-covid levels of travel through collaborations with the Singapore Tourism Board as well as maintaing its
+                image as a world-class travel hub. 
+            </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <center>
+            <img src="resources/change.png" width="800">
+        </center>
+
+        <div class ="Analysis">
+            <div class = "changecontainer">
+                <div class ="change1">
+                <canvas id="Chart4"></canvas>
+                </div>
+
+                <div class ="change2">
+                <canvas id="Chart5" ></canvas>
+                </div>
+
+                <div class ="change3">
+           
+                     <p>
+                        Even if Singapore continues it's efforts to reach pre-COVID levels, would it truly be the same as before? 
+                        The departures in 2022 was only approximately 56% of pre-covid capacity (Left Graph) which highlights how there is actually 
+                        a significant decrease in flights offered. This decrease in supply of flights due to the slow return of airline operations coupled 
+                        with the significant increase in demand for air travel would adversly affect ticket prices, pushing the prices higher than it was
+                        pre-COVID. 
+                    <br>
+                    <br>
+                        However, as airlines continue to increase thier presence in Singapore and start to offer more seats to other travel destinations, 
+                        we can expect prices to slowly ease back to pre-COVID levels. The top right graph displays this in action, from the start of the year 
+                        where there were limited flights to Shanghai in China resulting in the rather high one-way flight prices. However, as Singapore 
+                        Airlines and Scoot continued to increase their presence in the China market and restart flights as China started opening up, we can see 
+                        flight prices slowly start to decrease.
+                    <br>
+                    <br>
+                        Changi Airport has also welcomed new carriers such as Bamboo Air, Tway and Starway which has offered travellers with new ways to 
+                        connect to thier travel desitnations. 
+                     </p>
+                </div>
+            </div>
+            
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <center>
+            <img src="resources/summary.png" width="600">
+        </center>
+
+        <div class ="Summary">
+            <div class ="sum1">
+              <img src="resources/Detour-Please-Singapores-Changi-Airport-Is-An-Artistic-Oasis@v3.gif" width="700px">
+            </div>
+            <div class ="sum2">
+            <p>
+            <br>
+            <br>
+            <br>
+              In Summary, Singapore Changi Airport is on the right track to recovery post-COVID-19. While recovery might
+              be slow, stagnant and might not exactly be how it was pre-COVID, Changi airport has shown that 
+              it is capable to bounce back and provide travellers with an uncomparable travel experience. 
+              <br>
+              <br>
+              With its continued drive to push boundaries and engage in disruptive innovation, I believe Changi Airport 
+              would be able to take on such future challengers steadfast. 
+            </p>
+             </div>
+        </div>
+
+        
+
+
+       

@@ -1,0 +1,170 @@
+
+
+ /* my floating header ... used chatGPT + W3 Schools*/
+#myHeader {  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #EEEEEE; 
+  z-index: 100; 
+  padding: 0; 
+}
+/* these are all the containers that link straight to the different sections */
+.clickable-container {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  margin: -1 auto; 
+}
+
+.clickable1, .clickable2, .clickable3 {
+  flex: 1 1 0;
+  padding: 10px; 
+  border: 1px solid black; 
+  background-color: rgb(98, 88, 88); 
+  text-align: center; 
+  font-size: 16px; 
+  font-family: 'Gill Sans', sans-serif; 
+  color: white;
+}
+/* background for whole document*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EEEEEE;
+}
+
+/* precovid container */
+.precovid {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Allerta Stencil';font-size: 22px;
+  border : none;
+}
+
+/* i used CSS Tricks + w3 Schools to help with my container flexbox*/
+.pre-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  flex: 1 1 100%; 
+}
+
+.pre1,
+.pre2,
+.pre3 {
+  flex: 1 1 50%; 
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* duringcovid container */
+.duringcovid {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Allerta Stencil';font-size: 22px;
+  border : none;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+/* postcovid container */
+.postcovid {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Allerta Stencil';font-size: 22px;
+  border : none;
+}
+
+/* analysis container */
+.Analysis {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Allerta Stencil';font-size: 22px;
+  border : none;
+}
+
+.changecontainer {
+  display: flex; 
+  flex-wrap: wrap; 
+  flex: 1 1 auto; 
+}
+
+.change1,
+.change2,
+.change3 {
+  flex : 1 1 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+
+/* summary container */
+.Summary {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  font-family: 'Allerta Stencil';font-size: 22px;
+  border : none;
+}
+
+.sum1,
+.sum2 {
+  flex : 1;
+  width: 60%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* font for all h2 family */
+h2 {
+  font-family: Georgia, serif;
+}
+
+/* the typing main title... i used chatGPT + W3Schools for this */
+#Typewriter {
+  overflow: hidden;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .10em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  color :rgb(98, 88, 88)
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 0, 0) }
+
+}
+/* the font color for all my paragraphs */
+p {
+  color : #80553C;
+}
+
+
+
+
